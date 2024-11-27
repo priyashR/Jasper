@@ -8,8 +8,9 @@ public class CreateDocumentServiceImpl implements CreateDocumentService {
 	
 	
 	@Override
-	public String allocateParent(){
+	public String createSampleDoc(){
 
+		System.out.println("Start document generation.");
 		return "Success!";
 	}
 
